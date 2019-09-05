@@ -86,13 +86,9 @@ content[8].textContent = siteContent["footer"]["copyright"];
 
 //Task 3
 
-let aTags = document.querySelectorAll("a");
-aTags[0].style.color = 'green';
-aTags[1].style.color = 'green';
-aTags[2].style.color = 'green';
-aTags[3].style.color = 'green';
-aTags[4].style.color = 'green';
-aTags[5].style.color = 'green';
+for (var i = 0; i < navBar.length; i++){
+  navBar[i].style.color = 'green';
+}
 
 
 let nav = document.querySelector("nav");
@@ -106,3 +102,15 @@ a.setAttribute('href', "#")
 a2.setAttribute('href', "#")
 a.style.color = 'green';
 a2.style.color = 'green';
+
+//Stretch
+
+let blues = document.getElementsByTagName('h4');
+for (var i = 0; i < blues.length; i++){
+  blues[i].style.color = 'blue';
+}
+
+let reds = document.getElementsByTagName('p');
+for (var i = 0; i < reds.length; i++){
+  reds[i].style.color = 'red';
+}
