@@ -105,12 +105,10 @@ a2.style.color = 'green';
 
 //Stretch
 
-let blues = document.getElementsByTagName('h4');
-for (var i = 0; i < blues.length; i++){
-  blues[i].style.color = 'blue';
+for (var i = 0; i < smallTitle.length; i++){
+  smallTitle[i].style.color = 'blue';
 }
 
-let reds = document.getElementsByTagName('p');
-for (var i = 0; i < reds.length; i++){
-  reds[i].style.color = 'red';
+for (var i = 0; i < content.length; i++){
+  content[i].style.fontWeight = 'bold';
 }
